@@ -1,4 +1,4 @@
-import { openai } from '../../config/opeaiConfig';
+import { openai } from '../../config/openaiConfig';
 
 const handler = async (req, res) => {
 	switch (req.method) {
